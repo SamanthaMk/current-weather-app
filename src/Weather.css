@@ -4,6 +4,7 @@
    margin: 30px auto;
    max-width: 800px;
    border-radius:25px;
+   background: rgb(13, 13, 76);
 }
 
  .Weather h2{
@@ -45,7 +46,7 @@ input[type="submit"]
    border: none;
    outline: none;
    cursor: pointer;
-   background: rgb(6, 4, 122);
+   background: rgb(103, 102, 175);
    color: white;
    left: -5px;
    right: -30px;
