@@ -15,7 +15,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       city: response.data.city,
       description: response.data.condition.description,
-      icon: "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png",
+      icon: response.data.condition.icon_url,
       index: response.data.condition.icon,
       date: new Date(response.data.time * 1000),
     });
