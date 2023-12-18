@@ -1,134 +1,144 @@
 .Weather {
-   border: 1px solid black;
-   padding: 16px;
-   margin: 30px auto;
-   max-width: 800px;
-   border-radius:25px;
-   background: rgb(13, 13, 76);
+  border: 1px solid black;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 25px;
+  background: rgb(13, 13, 76);
 }
 
- .Weather h2{
-   font-size: 27px;
-   font-weight: 100;
-   line-height: 29px;
-   color: rgb(40, 13, 66);
+.Weather h2 {
+  font-size: 27px;
+  font-weight: 100;
+  line-height: 29px;
+  color: rgb(40, 13, 66);
 }
 
-.Weather ul{
-   margin: 0;
-   padding: 0;
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 
-.Weather li{
-   font-size: 17px;
-   font-weight: 100;
-   line-height: 40px;
-   list-style: none;
+.Weather li {
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 40px;
+  list-style: none;
 }
 
-input[type="search"]
-{
-   width:340px;
-   height:50px;
-   padding: 0 25px;
-   display: inline-flex;
-   position:block;
-   border-radius: 25px 0 0 25px;
-  
+input[type="search"] {
+  width: 340px;
+  height: 50px;
+  padding: 0 25px;
+  display: inline-flex;
+  position: block;
+  border-radius: 25px 0 0 25px;
 }
 
-input[type="submit"]
-{
-   position:inherit;
-   border-radius: 0 25px 25px 0;
-   width: 150px;
-   height: 50px;
-   border: none;
-   outline: none;
-   cursor: pointer;
-   background: rgb(103, 102, 175);
-   color: white;
-   left: -5px;
-   right: -30px;
+input[type="submit"] {
+  position: inherit;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(103, 102, 175);
+  color: white;
+  left: -5px;
+  right: -30px;
 }
 
-input[type="submit"]:hover
-{
-background:rgb(113, 63, 160);
-color:black;
+input[type="submit"]:hover {
+  background: rgb(113, 63, 160);
+  color: black;
 }
 
-@media(max-width: 800px){
-   form
-   {
-margin: 100px;
-padding: 10px;
-   }
+@media (max-width: 800px) {
+  form {
+    margin: 100px;
+    padding: 10px;
+  }
 
-   input[type="search"]
-{
-   width:200px;
-   height:50px;
-   padding:15px;
-   position:block;
-   border-radius: 25px ;
-  
-}
-input[type="submit"]{
-     width:90px;
-   height:50px;
-   padding:15px;
-   position:block;
-   border-radius: 25px ;
-}
+  input[type="search"] {
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    position: block;
+    border-radius: 25px;
+  }
+  input[type="submit"] {
+    width: 90px;
+    height: 50px;
+    padding: 15px;
+    position: block;
+    border-radius: 25px;
+  }
 }
 
-@media(min-width: 880px){
-   form{
-   padding: 0;
-   margin: 170px;
-   margin-bottom: 20px;
-   margin-top: 25px;
+@media (min-width: 880px) {
+  form {
+    padding: 0;
+    margin: 170px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
 }
-}
-footer{
-   font-size: 15px;
-   margin:10px 10px;
-}
-
-.Weather .temp{
-   font-style: bold;
-   font-size: 40px;
-   font-weight: 400;
-   line-height: 40px;
-   margin-left: 10px;
+footer {
+  font-size: 15px;
+  margin: 10px 10px;
 }
 
-.middle{
-   background: Linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
-color: whitesmoke;
-border:1px solid navy ;
-padding: 20px;
-border-radius: 25px;
-font-size: 20px;
+.Weather .temp {
+  font-style: bold;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 10px;
 }
 
-.middle h2{
-   color: whitesmoke;
-   font-size: 43px;
+.middle {
+  background: Linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+  color: whitesmoke;
+  border: 1px solid navy;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 20px;
 }
 
-.middle .humid
-{
-   color: black;
-   font-size: 20px;
-   margin: 20px;
-   position: left;
+.middle h2 {
+  color: whitesmoke;
+  font-size: 43px;
 }
-.middle #wind
-{
- color: black;
-   font-size: 20px;
-   margin: 20px;
-   position: left;  
+
+.middle .humid {
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  position: left;
 }
+.middle #wind {
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  position: left;
+}
+
+.unit {
+  font-size: 27px;
+  color: white;
+}
+.unit a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+ 
