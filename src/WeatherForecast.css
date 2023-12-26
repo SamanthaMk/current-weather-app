@@ -14,3 +14,48 @@ div .daily {
  .temp-max{
      color:white;
  }
+ .weatherforecast{
+    position:relative;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    margin: 10px, 35px; 
+    display: block;
+    
+
+ }
+ .weatherforecast .row{
+box-shadow: 0.5px 15px rgba(10, 10, 10, 0.40);
+border-radius: 10px;
+ }
+
+ .weatherforecast .col{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    color: black;
+    border-radius: 10px;
+ }
+
+ .weatherforecast .col:hover{
+    transform: scale(1.1);
+   background: 
+    rgb(2, 91, 169);
+  box-shadow: 25px 1px rgb(177, 172, 172);
+  padding:10px;
+ }
+ 
+.weatherforecast .daily{
+    color: rgb(254, 254, 254);
+}
+
+ .weatherforecast .daily:hover{
+    color: black;
+ }
+
+ .weatherforecast .temp-max:hover{
+color:black;
+ }
